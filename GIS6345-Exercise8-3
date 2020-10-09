@@ -1,0 +1,9 @@
+# Exercise 8.3
+# Use the string slice operator and include the third index
+# to indicate step-size to write a one-line version of
+# is_palindrome. is_palindrome takes a string argument and
+# returns True if the string is a palindrome, and returns
+# False if the string is not a palindrome
+
+def is_palindrome(s):
+    return(s == s[::-1])
